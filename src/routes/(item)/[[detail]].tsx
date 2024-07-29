@@ -1,6 +1,8 @@
 import { A } from "@solidjs/router";
 import { Breadcrumb } from "~/components/Breadcrumb";
 import { useAuth } from "~/contexts/useAuth";
+import { FaSolidSquarePhone } from 'solid-icons/fa';
+import { RiMapMapPin2Fill } from 'solid-icons/ri';
 
 export default function ItemDetail() {
     const { user } = useAuth();
@@ -128,11 +130,19 @@ export default function ItemDetail() {
                     </main>
                 </div>
                 <div class="col-span-4 text-start">
-                    <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 w-full">
-                        <div class="bg-primary-400 rounded-lg p-4">
-                        <div class="relative w-24 h-24 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
-                            <svg class="absolute w-24 h-24 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+                    <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 w-full p-4 space-y-4">
+                        <div class="flex rounded-lg">
+                            <div class="relative w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+                            </div>
+                            <label class="font-semibold text-md pl-2">Vann Soklay</label>
                         </div>
+                        <div class="flex items-center space-x-1">
+                            <FaSolidSquarePhone font-size="32" />
+                            <label>+85510959402</label>
+                        </div>
+                        <div class="flex items-center space-x-1">
+                            <RiMapMapPin2Fill font-size="32" />
+                            <label>Phnom Penh , Chip mong 598</label>
                         </div>
                     </div>
                 </div>
