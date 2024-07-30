@@ -79,7 +79,7 @@ export default function ItemDetail() {
               </li>
             </ul>
             <div class="p-4">
-              <h1 class="text-lg font-medium">Description</h1>
+              <h1 class="text-lg font-medium pb-2.5">Description</h1>
               <p>
                 មានលក់បោះដុំ ចាប់ពី 5គ្រាប់ឡើង សំរាប់យកលក់បន្ត (Telegram :
                 017974xxx ចុចដើម្បីតេ/Click To Call) តម្លៃកាន់តែពិសេស​ Asus
@@ -130,26 +130,30 @@ export default function ItemDetail() {
           </main>
         </div>
         <div class="col-span-4 text-start">
-          <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 w-full space-y-4 divide-y divide-gray-300">
-            <div class="flex items-center rounded-lg">
+          <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 w-full divide-y divide-gray-300">
+            <div class="flex items-center rounded-lg p-4">
               <div class="relative w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600"></div>
               <div>
                 <div>
                   <label class="font-semibold text-lg pl-2">Vann Soklay</label>
                 </div>
                 <div>
-                    <label class="font-semibold text-gray-400 text-sm pl-2">1min</label>
+                  <label class="font-semibold text-gray-400 text-sm pl-2">
+                    1 min
+                  </label>
                   {/* <button type="button" class="font-semibold text-md pl-2">View</button> */}
                 </div>
               </div>
             </div>
-            <div class="flex items-center space-x-1">
-              <FaSolidSquarePhone font-size="32" />
-              <label>+85510959402</label>
-            </div>
-            <div class="flex items-center space-x-1">
-              <RiMapMapPin2Fill font-size="32" />
-              <label>Phnom Penh , Chip mong 598</label>
+            <div class="p-4 space-y-2">
+              <div class="flex items-center space-x-1">
+                <FaSolidSquarePhone font-size="28" />
+                <label>+85510959402</label>
+              </div>
+              <div class="flex items-center space-x-1">
+                <RiMapMapPin2Fill font-size="28" />
+                <label>Phnom Penh , Chip mong 598</label>
+              </div>
             </div>
           </div>
         </div>
