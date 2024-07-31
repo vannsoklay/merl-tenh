@@ -45,7 +45,9 @@ const AuthProvider: Component<ContextProps> = (props) => {
   };
 
   return (
-    <ContextAuth.Provider value={context}>{props.children}</ContextAuth.Provider>
+    <ContextAuth.Provider value={context}>
+      {props.children}
+    </ContextAuth.Provider>
   );
 };
 

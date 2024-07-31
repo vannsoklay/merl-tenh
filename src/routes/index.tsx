@@ -1,8 +1,8 @@
 import { A } from "@solidjs/router";
 import { For } from "solid-js";
 import CardItem from "~/components/Card";
-import Counter from "~/components/Counter";
 import { Item } from "~/types/item";
+
 
 export default function Home() {
   const items = [
